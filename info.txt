@@ -1,0 +1,16 @@
+﻿	Grup:
+- Jose Martin Castro
+- Miquel Miro Rovira
+
+	Funcionalitats:
+- Noms: BABA, WALL, FLAG, ROCK, LAVA
+- Operadors: IS, AND
+- Propietats: YOU, PUSH, STOP, DEFEAT, WIN, SUPER (nova funcionalitat)
+
+	Instruccions:
+- Fletxes del teclat: moviment
+- R: tornar a començar el nivell
+- Esc: sortir / tornar al menu
+
+Totes els funcionalitats mencionades anteriorment funcionen igual que en el joc original, es a dir, que totes les posibles combinacions estan implementades.
+La nova funcionalitat SUPER, fa que el bloc que sigui SUPER trenqui tot altre objecte que no sigui SUPER, textos o les parets del voltant del nivell. Es pot tocar un objecte SUPER, pero si aquest toca o es empenyat contra un altre que no compleix les condicions anteriors l'altre es trencara.
